@@ -59,7 +59,7 @@ public class soal2 {
                 break;
         }
 
-
+        s.close();
         
     }
     

@@ -22,6 +22,8 @@ public class soal1 {
         System.out.println("Halo, " + nama1 + "." + " " + salam);
         System.out.println("Halo, " + nama2 + "." + " " +salam);
 
+        s.close();
+
     }
     
     public static String salam(int jam) {

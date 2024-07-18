@@ -29,6 +29,8 @@ public class soal3 {
                 break;
         }
 
+        s.close();
+
     }
 }
 

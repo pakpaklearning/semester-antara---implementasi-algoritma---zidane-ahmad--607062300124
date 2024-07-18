@@ -35,6 +35,8 @@ class soal1 {
             default:
                 break;
         }
+
+        s.close();
     }
 }   
     
