@@ -9,6 +9,7 @@ public class soal2 {
         System.out.println("lirik lagu:");
         String lirik = s.nextLine();
         
+        
         int panjangLirik = lirik.length();
         int sisaBagi = panjangLirik % 5;
         
