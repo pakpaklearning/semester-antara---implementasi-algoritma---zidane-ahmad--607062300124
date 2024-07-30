@@ -9,10 +9,11 @@ public class soal3 {
         boolean bilanganPrima = true;
 
         if (angka < 2) {
-            bilanganPrima = false;
+            bilanganPrima = true;
         } else {
-            for (int i = 2; i * i <= angka; i++) {
+            for (int i = 2; i <= angka / 2 ; i++) {
                 if (angka % i == 0) {
+                    bilanganPrima = false;
                     break;
                 }
             }

@@ -5,7 +5,7 @@ public class soal2 {
         
         for (int i = 1; i <= 10; i++){
             int hasilKuadrat = i * i;
-            System.out.println(hasilKuadrat);
+            System.out.print(hasilKuadrat + " ");
         }
     }
 }
